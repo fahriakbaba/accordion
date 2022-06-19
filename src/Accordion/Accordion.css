@@ -1,0 +1,64 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.section-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 16px 20px;
+    background-color: #4B145B;
+    height: 100vh;
+}
+.section-container > h1 {
+    color: white;
+    text-transform: capitalize;
+    margin-bottom: 40px;
+    font-size: 2.5rem;
+}
+.accordion-question {
+    width: 40%;
+    background-color: white;
+    padding: 36px;
+    margin-bottom: 9px;
+    border: 1px sold gray;
+    border-radius: 2px;
+    box-shadow: 1px 1px 4px wheat;
+    transition: all .7s;
+}
+.accordion-question:hover {
+    transform: scale(1.02);
+}
+.accordion-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+}
+.accordion-btn {
+    padding: 4px 8px;
+    text-transform: capitalize;
+    display: inline-block;
+    border: none;
+    background: none;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 5px;
+    transition: all .7s;
+}
+.accordion-btn:hover {
+    background-color: rgba(128, 128, 128, .5);
+}
+.accordion-footer {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: left;
+    line-height: 1.5rem;
+    color: gray;
+}
+.color {
+    color: #4B145B;
+}
